@@ -1,0 +1,14 @@
+HOSTINGER BUILD SETTINGS
+
+Framework: Vite (or React/Vite, if shown)
+Node.js: 22
+Package manager: npm
+Build command: npm run build
+Output directory: dist
+Entry file: leave blank (this is a Vite frontend build)
+
+IMPORTANT:
+- Set the Root directory to the folder containing package.json.
+- In this ZIP, package.json is at the archive root. If using GitHub and the repo contains a wrapper folder named "kanika's-portfolio", set Root directory to "kanika's-portfolio". If package.json is already at the repository root, use "./".
+- Hostinger's current Node.js deployment supports npm, yarn, and pnpm; Bun is not supported. This project now declares npm as its package manager and no longer includes bun.lock.
+- The package-lock.json was not generated in this environment because npm registry access was unavailable. The package.json dependency ranges are unchanged except that the duplicate Vite declaration was removed from dependencies (Vite remains in devDependencies).
